@@ -29,8 +29,12 @@
 - [x] Run a failing eight-question requirement check, then integrate reviewed easy content.
 - [x] Build the simplified interface and guarded persistence while retaining the tested core.
 - [x] Verify core tests and full browser journeys; inspect desktop/mobile screenshots.
-- [ ] Resolve independent review findings, update README, push main and verify live hosting.
+- [x] Resolve independent review findings, update README, push main and verify live hosting.
 
 ## Validation
 
 All 11 reusable session-core tests and all 8 new browser tests pass. Verified exactly 8 easy questions and matching standalone/index files, 320/360/390/768px layouts, native keyboard selection, draft corrections, reset confirmation, unavailable/old storage and a clean exported HTML document with no external requests.
+
+## Delivery
+
+Published the verified standalone files to GitHub main. GitHub Pages setup returned HTTP403 because the integration cannot enable Pages. Published the same HTML through Sites instead; the native deployment succeeded at https://nahw-simple-q8.qq8081927.chatgpt.site with the default owner-private audience. Independent review found no significant issues and additionally completed all eight questions from exported HTML in an offline browser context.
